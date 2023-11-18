@@ -4,7 +4,7 @@ metadata:
   name: simplenode
 spec:
   rules:
-    - host: simplenode-dev.$INGRESS_DOMAIN
+    - host: simplenode-dev.domain.placeholder
       http:
         paths:
           - path: /
