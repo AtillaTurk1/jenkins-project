@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: simplenode
-        image: "grabnerandi/simplenodeservice:1.0.2"
+        image: "atillaturk1/jenkins-demo2:13"
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
