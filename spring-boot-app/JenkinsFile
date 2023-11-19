@@ -47,7 +47,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "jenkins-demo6"
+            GIT_REPO_NAME = "klt-on-k3s-with-argocd"
             GIT_USER_NAME = "Atillaturk1"
         }
         steps {
